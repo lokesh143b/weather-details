@@ -1,0 +1,69 @@
+/* CitiesTable.css */
+
+.container {
+    position: relative;
+  }
+  
+  .input {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  
+  .autocomplete {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    z-index: 1;
+  }
+  
+  .autocomplete-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .autocomplete-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .table-container {
+    height: 90vh;
+    overflow-y: scroll;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  .table th{
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table th {
+    cursor: pointer;
+  }
+  
+  .table td {
+    cursor: pointer;
+  }
+  
+  .no-more-cities {
+    text-align: center;
+    padding: 10px;
+  }
+  
